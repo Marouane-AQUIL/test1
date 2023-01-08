@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "a56fff1e-42e4-4a54-9f8b-7577aa6142bf",
+		"name": "test1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8888975"
+	},
+	"item": [
+		{
+			"name": "http://localhost/test1/public/api/products?name=asdf&sku=1&quantity=1&category_id=hello&price=1.11",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/test1/public/api/products?name=asdf&sku=1&quantity=1&category_id=hello&price=1.11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"test1",
+						"public",
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "asdf"
+						},
+						{
+							"key": "sku",
+							"value": "1"
+						},
+						{
+							"key": "quantity",
+							"value": "1"
+						},
+						{
+							"key": "category_id",
+							"value": "hello"
+						},
+						{
+							"key": "price",
+							"value": "1.11"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/test1/public/api/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/test1/public/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"test1",
+						"public",
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/test1/public/api/products/1?name=name5&sku=R5&quantity=5&category_id=5&price=1.11",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/test1/public/api/products/1?name=name5&sku=R5&quantity=5&category_id=5&price=1.11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"test1",
+						"public",
+						"api",
+						"products",
+						"1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "name5"
+						},
+						{
+							"key": "sku",
+							"value": "R5"
+						},
+						{
+							"key": "quantity",
+							"value": "5"
+						},
+						{
+							"key": "category_id",
+							"value": "5"
+						},
+						{
+							"key": "price",
+							"value": "1.11"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/test1/public/api/products/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/test1/public/api/products/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"test1",
+						"public",
+						"api",
+						"products",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/test1/public/api/products/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/test1/public/api/products/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"test1",
+						"public",
+						"api",
+						"products",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
